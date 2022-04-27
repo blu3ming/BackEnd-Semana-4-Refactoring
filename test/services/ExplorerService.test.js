@@ -15,6 +15,6 @@ describe('Explorer Services tests',()=>{
 
     test('3) Get a username list of explorers in node', () => {
         const explorersByUsernameInNode = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
-        expect(explorersByUsernameInNode).toInclude("ajolonauta10");
+        expect(explorersByUsernameInNode).toContain("ajolonauta5");
     });
 });
