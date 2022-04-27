@@ -19,5 +19,8 @@
   "homepage": "https://github.com/blu3ming/BackEnd-Semana-4-Refactoring#readme",
   "dependencies": {
     "jest": "^28.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
   }
 }
