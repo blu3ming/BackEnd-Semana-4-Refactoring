@@ -15,4 +15,10 @@ describe("Explorer Controller tests",()=>{
         const explorersInMissionAmount = ExplorerController.getExplorersAmonutByMission("node");
         expect(explorersInMissionAmount).toBe(10);
     });
+
+    test("4) Validate a number score", () => {
+        const number = 5;
+        const validationScoreResponse = ExplorerController.validateNumberScore(number);
+        expect(validationScoreResponse).toBe("Buzz");
+    });
 });
