@@ -1,4 +1,4 @@
-const Reader = require("./../lib/utils/Reader");
+const Reader = require("./../../lib/utils/Reader");
 
 describe('Reader tests',()=>{
     test('1) File reading', () => {
